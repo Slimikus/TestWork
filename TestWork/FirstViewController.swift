@@ -35,7 +35,11 @@ class FirstViewController: UIViewController  {
             self.longitudeLabel.text = String(longitude)
             let loc = CLLocation(latitude: latitude, longitude: longitude)
             Location.getPlacemark(forLocation: loc, success: { placemark in
-                self.city = String(describing: placemark.first!.addressDictionary!["City"]!)
+                if placemark.first!.addressDictionary!["City"] != nil {
+                    self.city = String(describing: placemark.first!.addressDictionary!["City"]!)
+                } else {
+                    self.city = String(describing: placemark.first!.addressDictionary!["Name"]!)
+                }
                 self.cityLabel.text = self.city
                 self.arraySingle.append(self.city)
                 let appid = "69959b3831880164f37b3287b60db0aa"
