@@ -68,6 +68,8 @@ class FirstViewController: UIViewController  {
                             UserDefaults.standard.set(arrayAll, forKey: "arrayAll")
                         case .failure(let error):
                             print(error)
+                            self.TempLabel.text = "We are so sorry!"
+                            self.weatherCity.text = "We could not find out the weather for you"
                         }
                 }
             }, failure: { error in
