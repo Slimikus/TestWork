@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestWork/FirstViewController.swift"
+            timestampString = "521574109.423701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestWork.FirstViewController.(getData () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "TestWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrejmakoveckij/Documents/TestWork/TestWork/FirstViewController.swift"
+                  timestampString = "521573430.008764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "4104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestWork.FirstViewController.(getData () -&gt; ()).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "TestWork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrejmakoveckij/Documents/TestWork/TestWork/FirstViewController.swift"
+                  timestampString = "521573430.021801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
